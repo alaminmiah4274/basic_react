@@ -9,6 +9,7 @@ import { useState } from "react";
 import Navbar from "/src/customComponent/Navbar";
 import Cart from "/src/customComponent/Cart";
 import Effect from "/src/customComponent/Effect";
+import APIFetch from "/src/customComponent/APIFetch";
 
 function App() {
   // const fruits = ["Apple", "Banana", "orange", "lemon", "mango", "Cherry"];
@@ -41,7 +42,9 @@ function App() {
         onRemove={handleProductRemove}
       />*/}
 
-      <Effect />
+      {/*<Effect />*/}
+
+      <APIFetch />
     </div>
   );
 }
