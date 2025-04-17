@@ -8,6 +8,7 @@
 import { useState } from "react";
 import Navbar from "/src/customComponent/Navbar";
 import Cart from "/src/customComponent/Cart";
+import Effect from "/src/customComponent/Effect";
 
 function App() {
   // const fruits = ["Apple", "Banana", "orange", "lemon", "mango", "Cherry"];
@@ -33,12 +34,14 @@ function App() {
       <Person />
       <Skill />
       <Employee />*/}
-      <Navbar cartItemCount={cartItems.length} />
+      {/*<Navbar cartItemCount={cartItems.length} />
       <Cart
         cartItems={cartItems}
         onClose={() => setCartItems([])}
         onRemove={handleProductRemove}
-      />
+      />*/}
+
+      <Effect />
     </div>
   );
 }
