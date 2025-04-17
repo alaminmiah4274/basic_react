@@ -3,6 +3,7 @@ import FirstComponent from "./FirstComponent";
 import List from "./customComponent/List";
 import PlayWithButton from "./customComponent/PlayWithButton";
 import Person from "./customComponent/Person";
+import Skill from "./customComponent/Skill";
 
 function App() {
   const fruits = ["Apple", "Banana", "orange", "lemon", "mango", "Cherry"];
@@ -17,6 +18,7 @@ function App() {
       <PlayWithButton />
 
       <Person />
+      <Skill />
     </>
   );
 }
