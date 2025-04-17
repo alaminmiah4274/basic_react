@@ -14,12 +14,16 @@ const Skill = () => {
     // setSkills(newSkills);
 
     // remove
+    const removeSkills = skills.filter((item) => item != "react");
     // setSkills([skills.filter((item) => item != "react")]);
 
     // update
-    setSkills([
-      skills.map((item) => (item === "python" ? (item = "MSQL") : item)),
-    ]);
+    const updateSkills = skills.map((item) =>
+      item === "django" ? (item = "MySQL") : item,
+    );
+    // setSkills([
+    //   skills.map((item) => (item === "python" ? (item = "MSQL") : item)),
+    // ]);
   };
 
   return (
