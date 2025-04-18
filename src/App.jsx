@@ -11,6 +11,7 @@ import Cart from "/src/customComponent/Cart";
 import Effect from "/src/customComponent/Effect";
 import APIFetch from "/src/customComponent/APIFetch";
 import Form from "/src/customComponent/Form";
+import FormState from "/src/customComponent/FormState";
 
 function App() {
   // const fruits = ["Apple", "Banana", "orange", "lemon", "mango", "Cherry"];
@@ -45,7 +46,9 @@ function App() {
 
       {/*<Effect />*/}
       {/*<APIFetch />*/}
-      <Form />
+      {/*<Form />*/}
+
+      <FormState />
     </div>
   );
 }
