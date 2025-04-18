@@ -12,6 +12,7 @@ import Effect from "/src/customComponent/Effect";
 import APIFetch from "/src/customComponent/APIFetch";
 import Form from "/src/customComponent/Form";
 import FormState from "/src/customComponent/FormState";
+import HookForm from "/src/customComponent/HookForm";
 
 function App() {
   // const fruits = ["Apple", "Banana", "orange", "lemon", "mango", "Cherry"];
@@ -47,8 +48,8 @@ function App() {
       {/*<Effect />*/}
       {/*<APIFetch />*/}
       {/*<Form />*/}
-
-      <FormState />
+      {/*<FormState />*/}
+      <HookForm />
     </div>
   );
 }
