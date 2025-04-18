@@ -13,24 +13,25 @@ import APIFetch from "/src/customComponent/APIFetch";
 import Form from "/src/customComponent/Form";
 import FormState from "/src/customComponent/FormState";
 import HookForm from "/src/customComponent/HookForm";
+import CartApp from "/src/Cart/CartApp";
 
 function App() {
   // const fruits = ["Apple", "Banana", "orange", "lemon", "mango", "Cherry"];
   // const cities = ["Dhaka", "chittagong", "sylhet", "Rangpur", "barishal"];
-  const [cartItems, setCartItems] = useState([
-    "product 1",
-    "product 2",
-    "product 3",
-    "product 4",
-    "product 5",
-  ]);
+  // const [cartItems, setCartItems] = useState([
+  //   "product 1",
+  //   "product 2",
+  //   "product 3",
+  //   "product 4",
+  //   "product 5",
+  // ]);
 
-  const handleProductRemove = (item) => {
-    setCartItems(cartItems.filter((product) => product != item));
-  };
+  // const handleProductRemove = (item) => {
+  //   setCartItems(cartItems.filter((product) => product != item));
+  // };
 
   return (
-    <div className="m-5">
+    <div>
       {/*<FirstComponent />
       <List items={fruits} heading="Fruits" />
       <List items={cities} heading="Cities" />
@@ -49,7 +50,9 @@ function App() {
       {/*<APIFetch />*/}
       {/*<Form />*/}
       {/*<FormState />*/}
-      <HookForm />
+      {/*<HookForm />*/}
+
+      <CartApp />
     </div>
   );
 }
